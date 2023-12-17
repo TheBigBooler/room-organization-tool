@@ -66,7 +66,7 @@ const ObjectCreationForm = () => {
             >
               Create object
             </button>
-          </form>
+          </form> 
         </div>
       </>
     );

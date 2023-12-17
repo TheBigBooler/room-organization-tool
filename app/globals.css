@@ -4,8 +4,14 @@
 
 .objectText {
     visibility: hidden;
+    position: relative;
+    top: -20px;
 }
-
+/*text is offset above the created object, displays on hover*/
 .createdObject:hover p {
    visibility: visible;
+}
+
+.createdObject {
+    position: absolute;
 }
