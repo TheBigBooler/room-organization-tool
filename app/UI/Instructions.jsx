@@ -4,8 +4,9 @@ const Instructions = () => {
     const [hidden, setHidden] = useState(true);
 
     return (
-        
-      <div>
+        //there's a button to click which displays the instructions, and following the instructions is a button to hide them
+      <div className="m-2">
+        {/* ternary operator to hide/display instructions */}
         {hidden ?
         <button onClick={() => {
             setHidden(false)
@@ -25,13 +26,14 @@ const Instructions = () => {
           </li>
           <li>
             Once created, you can click and hold to drag the objects around your
-            room. Double-clicking an object will rotate it 90 degress.
+            room. Double-clicking an object will rotate it 90 degrees.
           </li>
         </ul>
         <button onClick={() => {
             setHidden(true)
         }}>Hide instructions</button>
         </>
+        //button that hides instructions ^
         }
 
       </div>
