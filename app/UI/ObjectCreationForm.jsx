@@ -45,7 +45,7 @@ const ObjectCreationForm = () => {
               <input
                 id="width"
                 type="number"
-                className="border-2 rounded-md border-black w-10 m-2"
+                className="border-2 rounded-md border-black w-14 m-2"
                 value={objectToCreate.width}
                 onChange={handleChange}
               ></input>
@@ -55,14 +55,14 @@ const ObjectCreationForm = () => {
               <input
                 id="length"
                 type="number"
-                className="border-2 rounded-md border-black w-10 m-2"
+                className="border-2 rounded-md border-black w-14 m-2"
                 value={objectToCreate.length}
                 onChange={handleChange}
               ></input>
             </div>
             <button
               type="submit"
-              className="mt-2 text-lg border-black border-2 rounded-md p-1"
+              className="mt-2 mb-4 text-lg border-black border-2 rounded-md p-1"
             >
               Create object
             </button>

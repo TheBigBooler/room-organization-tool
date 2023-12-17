@@ -5,7 +5,8 @@
 .objectText {
     visibility: hidden;
     position: relative;
-    top: -20px;
+    top: -25px;
+    font-size: large;
 }
 /*text is offset above the created object, displays on hover*/
 .createdObject:hover p {
