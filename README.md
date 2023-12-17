@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+It is a simple tool for organizing a room by creating objects based on their dimensions, and dragging them around to set up a layout!
+
 ## Getting Started
 
 First, run the development server:
