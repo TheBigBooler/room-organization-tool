@@ -25,8 +25,8 @@ const Instructions = () => {
             length/width in total inches.
           </li>
           <li>
-            Once created, you can click and hold to drag the objects around your
-            room. Double-clicking an object will rotate it 90 degrees.
+            Once created, you can drag the objects around your
+            room to position them. Double-clicking an object will rotate it 90 degrees.
           </li>
         </ul>
         <button onClick={() => {
