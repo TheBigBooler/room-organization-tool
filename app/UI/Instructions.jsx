@@ -21,8 +21,8 @@ const Instructions = () => {
             perfect rectangle.
           </li>
           <li>
-            Next, create objects for your room. Include a description, and the
-            length/width either in feet with inches or total inches.
+            Next, create objects for your room. Include a name and the
+            length/width in total inches.
           </li>
           <li>
             Once created, you can click and hold to drag the objects around your

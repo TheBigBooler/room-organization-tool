@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { createObject } from "./utils";
+
 
 const ObjectCreationForm = () => {
     //object to hold values for item name, width, and length
@@ -19,6 +21,7 @@ const ObjectCreationForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(objectToCreate)
+        createObject(objectToCreate)
     }
 
     return (
@@ -29,6 +32,7 @@ const ObjectCreationForm = () => {
             <div>
               <label htmlFor="name">Item:</label>
               <input
+                placeholder="enter item name"
                 id="name"
                 type="text"
                 className="border-2 rounded-md border-black w-1/2 max-w-xs m-2"
@@ -49,14 +53,19 @@ const ObjectCreationForm = () => {
             <div>
               <label htmlFor="length">Length:</label>
               <input
-              id="length"
+                id="length"
                 type="number"
                 className="border-2 rounded-md border-black w-10 m-2"
                 value={objectToCreate.length}
                 onChange={handleChange}
               ></input>
             </div>
-          <button>Create object</button>
+            <button
+              type="submit"
+              className="mt-2 text-lg border-black border-2 rounded-md p-1"
+            >
+              Create object
+            </button>
           </form>
         </div>
       </>
